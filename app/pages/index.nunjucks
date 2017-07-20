@@ -1,0 +1,10 @@
+{% extends 'layout.nunjucks' %}
+
+{% block sitetile %}
+MEC MUN 
+{% endblock %}
+
+
+{% block content %}
+    {% include 'partials/navbar.nunjucks' %}
+{% endblock %}
