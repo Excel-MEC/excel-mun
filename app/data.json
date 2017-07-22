@@ -1,3 +1,70 @@
 {
-    "hello": "World"
+    "siteinfo":{
+        "brand": "MUN",
+        "title": "MUN"
+    },
+
+    "navbar":{
+        "type": "inverse",
+        "links":[
+            {"title": "Link1", "url":"#"}
+        ],
+        "linksRight":[
+            {"title": "Link4", "url":"#"},
+            {"title": "Link2", "url":"#"},
+            {"title": "Link3", "url":"#"}
+        ]
+    },
+
+    "carousel":[
+        {
+            "id": 0,
+            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "headline": "Some Headline",
+            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "link": {"title": "Learn More", "href": "#"}
+        },
+        {
+            "id": 1,
+            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "headline": "Some Headline",
+            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "link": {"title": "Learn More", "href": "#"}
+        },
+        {
+            "id": 2,
+            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "headline": "Some Headline",
+            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "link": {"title": "Learn More", "href": "#"}
+        },
+        {
+            "id": 3,
+            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "headline": "Some Headline",
+            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "link": {"title": "Learn More", "href": "#"}
+        }
+    ],
+
+    "marketing":[
+        {
+            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "heading": "Some Heading",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+            "link": { "title":"View More","href":"#" }
+        },
+        {
+            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "heading": "Some Heading",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+            "link": { "title":"View More","href":"#" }
+        },
+        {
+            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "heading": "Some Heading",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+            "link": { "title":"View More","href":"#" }
+        }
+    ]
 }

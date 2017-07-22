@@ -20,6 +20,7 @@
     "gulp-uglify": "^2.1.0",
     "gulp-useref": "^3.1.2",
     "gulp-util": "^3.0.8",
+    "load-json-file": "^2.0.0",
     "run-sequence": "^1.2.2"
   },
   "author": "",
