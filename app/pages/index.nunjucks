@@ -9,4 +9,5 @@
     {% set active = "Home" %}
     {% include 'partials/navbar.nunjucks' %}
     {% include 'partials/carousel.nunjucks' %}
+    {% include 'partials/marketing.nunjucks' %}
 {% endblock %}
