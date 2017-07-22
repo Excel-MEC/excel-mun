@@ -1,3 +1,18 @@
 {
-    "hello": "World"
+    "siteinfo":{
+        "brand": "MUN",
+        "title": "MUN"
+    },
+
+    "navbar":{
+        "type": "default",
+        "links":[
+            {"title": "Link1", "url":"#"},
+            {"title": "Link2", "url":"#"},
+            {"title": "Link3", "url":"#"}
+        ],
+        "linksRight":[
+            {"title": "Link4", "url":"#"}
+        ]
+    }
 }

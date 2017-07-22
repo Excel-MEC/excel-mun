@@ -1,10 +1,12 @@
 {% extends 'layout.nunjucks' %}
 
-{% block sitetile %}
-MEC MUN 
+{% block sitetitle %}
+    {{siteinfo.title}}
 {% endblock %}
 
 
 {% block content %}
+    {% set active = "Home" %}
     {% include 'partials/navbar.nunjucks' %}
+    {% include 'partials/carousel.nunjucks' %}
 {% endblock %}

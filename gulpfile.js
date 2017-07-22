@@ -9,7 +9,8 @@ const useref = require('gulp-useref'),
     sass = require('gulp-sass'),
     babel = require('gulp-babel'),
     nunjucksRender = require('gulp-nunjucks-render'),
-    data = require('gulp-data');
+    data = require('gulp-data'),
+    loadJsonFile = require('load-json-file');
 
 
 gulp.task('images', function () {
@@ -72,7 +73,7 @@ gulp.task('nunjucks', function () {
     return gulp.src('app/pages/**/*.+(html|nunjucks)')
         // adding data
         .pipe(data(function () {
-            return require('./app/data.json')
+            return loadJsonFile.sync('./app/data.json');
         }))
         // Renders template with nunjucks
         .pipe(nunjucksRender({
