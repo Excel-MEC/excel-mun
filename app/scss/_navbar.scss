@@ -1,13 +1,19 @@
 .navbar{
     margin-bottom: 0 !important; 
-    position: absolute;
     width:100%;
     z-index: 100;
 
     ul.nav a{
         padding-top: 15px;
     }
+
+    transition: background-color 0.3s linear;
 }
+
+.navbar-inverse{
+    background-color: #34495e;
+}
+
 
 @media (min-width:767px){
     .navbar-transparent{

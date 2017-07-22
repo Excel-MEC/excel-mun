@@ -5,14 +5,14 @@
     },
 
     "navbar":{
-        "type": "default",
+        "type": "inverse",
         "links":[
-            {"title": "Link1", "url":"#"},
-            {"title": "Link2", "url":"#"},
-            {"title": "Link3", "url":"#"}
+            {"title": "Link1", "url":"#"}
         ],
         "linksRight":[
-            {"title": "Link4", "url":"#"}
+            {"title": "Link4", "url":"#"},
+            {"title": "Link2", "url":"#"},
+            {"title": "Link3", "url":"#"}
         ]
     },
 

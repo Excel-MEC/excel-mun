@@ -1,6 +1,5 @@
 .carousel {
-  height: 500px;
-  margin-bottom: 60px; }
+  height: 500px; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -20,11 +19,14 @@
 
 .navbar {
   margin-bottom: 0 !important;
-  position: absolute;
   width: 100%;
-  z-index: 100; }
+  z-index: 100;
+  transition: background-color 0.3s linear; }
   .navbar ul.nav a {
     padding-top: 15px; }
+
+.navbar-inverse {
+  background-color: #34495e; }
 
 @media (min-width: 767px) {
   .navbar-transparent {
@@ -40,3 +42,9 @@
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px; }
+
+.registration-alert {
+  text-align: center; }
+
+span.countdownTarget {
+  text-decoration: none !important; }
