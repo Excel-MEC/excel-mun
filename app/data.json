@@ -11,8 +11,8 @@
         ],
         "linksRight":[
             {"title": "About Us", "url":"#about-us"},
-            {"title": "Marketing", "url":"#marketing"},
-            {"title": "Link3", "url":"#"}
+            {"title": "Committees", "url":"#marketing"},
+            {"title": "Preparation", "url":"#preparation"}
         ]
     },
 
@@ -67,8 +67,30 @@
             "link": { "title":"View More","href":"#" }
         }
     ],
+
     "aboutus":{
         "heading": "ABOUT US",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+    },
+
+    "preparation":{
+        "heading": "PREPARATION",
+        "topics": [
+            {
+                "committeename": "committee 1",
+                "topic": "some topic",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+            },
+            {
+                "committeename": "committee 2",
+                "topic": "some topic",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+            },
+            {
+                "committeename": "committee 3",
+                "topic": "some topic",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+            }
+        ]
     }
 }

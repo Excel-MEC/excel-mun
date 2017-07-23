@@ -23,6 +23,9 @@ function setupScrollreveal(){
     sr.reveal('.registration-alert' ,{duration: 500 ,origin: "top"});
     sr.reveal('.about-us-heading' ,{duration: 1000 ,origin: "left"});
     sr.reveal('.about-us-desc',{duration:1000,origin: "right"});
+    sr.reveal('.preparation-heading',{duration:1000,origin: "left"});
+    sr.reveal('.topic' ,{duration: 2000, origin: "bottom", distance: "20px"},60);
+    
 
 }
 
