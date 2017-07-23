@@ -62,3 +62,7 @@ span.countdownTarget {
   .about-us p {
     font-family: 'Open Sans', sans-serif;
     text-align: center; }
+
+body {
+  position: relative;
+  padding-bottom: 800px; }

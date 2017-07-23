@@ -10,8 +10,8 @@
             {"title": "Link1", "url":"#"}
         ],
         "linksRight":[
-            {"title": "Link4", "url":"#"},
-            {"title": "Link2", "url":"#"},
+            {"title": "About Us", "url":"#about-us"},
+            {"title": "Marketing", "url":"#marketing"},
             {"title": "Link3", "url":"#"}
         ]
     },
