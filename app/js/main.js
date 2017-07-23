@@ -59,7 +59,7 @@ function smoothScroll(){
    // store hash
    var hash = this.hash;
 
-        if(!hash) return;
+    if(!hash) return;
 
    // animate
    $('html, body').animate({

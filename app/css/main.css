@@ -23,7 +23,9 @@
   z-index: 100;
   transition: background-color 0.3s linear; }
   .navbar ul.nav a {
-    padding-top: 15px; }
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; }
 
 .navbar-inverse {
   background-color: #4B77BE; }
@@ -64,5 +66,4 @@ span.countdownTarget {
     text-align: center; }
 
 body {
-  position: relative;
-  padding-bottom: 800px; }
+  position: relative; }
