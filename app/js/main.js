@@ -18,8 +18,18 @@ function handleScroll(){
     });
 }
 
+function setupScrollreveal(){
+    sr.reveal('.marketing-element' ,{duration: 2000, origin: "bottom", distance: "200px"},60);
+    sr.reveal('.registration-alert' ,{duration: 500 ,origin: "top"});
+    sr.reveal('.about-us-heading' ,{duration: 1000 ,origin: "left"});
+    sr.reveal('.about-us-desc',{duration:1000,origin: "right"});
+
+}
 
 $(document).ready(() =>{
+    window.sr = ScrollReveal();
     runCountDownTimer(2017,8,6);
     handleScroll();
+    setupScrollreveal()
+
 });

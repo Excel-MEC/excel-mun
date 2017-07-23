@@ -10,4 +10,5 @@
     {% include 'partials/carousel.nunjucks' %}
     {% include 'partials/registration-alert.nunjucks' %}
     {% include 'partials/marketing.nunjucks' %}
+    {% include 'partials/about-us.nunjucks' %}
 {% endblock %}

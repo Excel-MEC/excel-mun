@@ -26,7 +26,7 @@
     padding-top: 15px; }
 
 .navbar-inverse {
-  background-color: #34495e; }
+  background-color: #4B77BE; }
 
 @media (min-width: 767px) {
   .navbar-transparent {
@@ -48,3 +48,17 @@
 
 span.countdownTarget {
   text-decoration: none !important; }
+
+.about-us {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .about-us h3 {
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px; }
+  .about-us p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; }
