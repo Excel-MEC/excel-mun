@@ -16,3 +16,12 @@
         font-weight: 300;
     }
 }
+
+@media(max-height:767px){
+    #preparation{
+
+        .topic{
+            margin-bottom: 75px;
+        }
+    }
+}
