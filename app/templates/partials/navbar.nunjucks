@@ -17,7 +17,7 @@
           <li><a href="{{link.url}}">{{link.title}}</a></li>
         {% endfor %}
         </ul>
-        <ul class="nav navbar-nav navbar-right" >
+        <ul class="nav navbar-nav navbar-right">
           {% for link in navbar.linksRight %}
               <li {% if link.title === active %}class="active" {% endif %}><a href="{{link.url}}">{{link.title}}</a></li>
           {% endfor %}
