@@ -92,5 +92,21 @@
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
             }
         ]
+    },
+
+    "footer":{
+        "social":[
+            {"faicon": "facebook", "url":"#"},
+            {"faicon": "linkedin", "url":"#"},
+            {"faicon": "youtube", "url":"#"},
+            {"faicon": "instagram", "url":"#"}
+        ],
+
+        "footerlinks":[
+            {"title":"Link1","url":"#"},
+            {"title":"Link2","url":"#"},
+            {"title":"Link3","url":"#"},
+            {"title":"Link4","url":"#"}
+        ]
     }
 }
