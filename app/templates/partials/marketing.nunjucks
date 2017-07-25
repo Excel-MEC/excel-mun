@@ -1,7 +1,7 @@
-<div class="container marketing">
+<div class="container marketing" id="marketing">
       <div class="row">
       {% for m in marketing %}
-        <div class="col-lg-4">
+        <div class="col-lg-4 marketing-element">
           <img class="img-circle" src="{{m.image.src}}" alt="{{m.image.alt}}" width="140" height="140">
           <h2>{{m.heading}}</h2>
           <p>{{m.description}}</p>
@@ -9,3 +9,4 @@
         </div><!-- /.col-lg-4 -->
       {% endfor %}
       </div><!-- /.row -->
+</div>

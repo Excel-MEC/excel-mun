@@ -9,14 +9,15 @@
         <!-- Latest compiled and minified CSS -->        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:700|Open+Sans|Roboto" rel="stylesheet">
         <!--build:css css/main.min.css -->
         <link rel="stylesheet" href="css/main.css">
         <!--endbuild-->
 
             
     </head>
-    <body>
-
+    <body data-spy="scroll" data-target=".navbar" data-offset="80">
+        <div id="home"></div>
         {% block content %} {% endblock %}
 
         <!--scripts-->
@@ -26,6 +27,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/countdown/2.6.0/countdown.min.js"> </script>
         <!--build:js js/main.min.js-->
         <script src="js/main.js"></script>
-        <!--endbuild-->   
+        <!--endbuild-->
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>   
     </body>
 </html>
