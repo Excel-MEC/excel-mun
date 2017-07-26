@@ -101,6 +101,7 @@ span.countdownTarget {
 footer {
   background-color: #222222;
   min-height: 200px;
+<<<<<<< HEAD
   padding-top: 60px;
   position: relative;
   width: 100%;
@@ -111,6 +112,9 @@ footer .container {
   z-index: -1;
   bottom: 0;
   width: 100%; }
+=======
+  padding: 60px 0 50px 0; }
+>>>>>>> master
 
 footer .social ul {
   margin-bottom: 35px; }

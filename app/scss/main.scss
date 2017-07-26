@@ -1,17 +1,17 @@
- @import 'carousel';
+@import 'carousel';
 @import 'navbar';
 @import 'marketing';
 @import 'reg-alert';
 @import 'about-us';
 @import 'preparation';
-@import "contact";
+@import 'contact';
 @import 'footer';
 
 
 
 body {
   z-index: 0;
-
+  position: relative;
 
 
 }
