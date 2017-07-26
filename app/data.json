@@ -94,6 +94,10 @@
         ]
     },
 
+    "contact":{
+      
+    },
+
     "footer":{
         "social":[
             {"faicon": "facebook", "url":"#"},

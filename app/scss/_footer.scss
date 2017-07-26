@@ -1,11 +1,22 @@
 footer{
 	background-color:#222222;
 	min-height:200px;
-	padding:60px 0 50px 0;
+	padding-top:60px;
+	position: relative;
+	width:100%;
+  z-index:-2;
+}
+
+footer .container{
+	position:fixed;
+    z-index:-1;
+    bottom:0;
+    width:100%;
 }
 
 footer .social ul{
-	margin-bottom: 35px; 
+	margin-bottom: 35px;
+
 }
 
 
@@ -14,6 +25,8 @@ footer .menu li a{
 	color:#b1aca1;
 	padding:10px;
 	text-decoration:none;
+
+
 }
 
 footer .menu li a:hover{
@@ -24,10 +37,10 @@ footer .social a{
 	color:#b1aca1;
 	font-size:0.8em;
 	padding:10px;
-	padding-top: 0; 
+	padding-top: 0;
 	margin-bottom:50px;
 	transition: color 0.2s linear;
-	
+
 }
 
 footer .social a:hover{
