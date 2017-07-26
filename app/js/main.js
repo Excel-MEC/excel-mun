@@ -25,8 +25,9 @@ function setupScrollreveal(){
     sr.reveal('.about-us-desc',{duration:1000,origin: "right"});
     sr.reveal('.preparation-heading',{duration:1000,origin: "left"});
     sr.reveal('.topic' ,{duration: 2000, origin: "bottom", distance: "20px"},60);
-    sr.reveal('.contact-no' ,{duration:1000,origin: "left"} );
-    sr.reveal('.contact-us-heading',{duration:1000,origin: "left"});
+    sr.reveal('.contact-no-el' ,{duration:1000,origin: "left"},60 );
+    sr.reveal('.contact-us-heading',{duration:1000,origin: "right"});
+    sr.reveal('.map-panel',{duration:1000,origin: "left"});
 
 
 }

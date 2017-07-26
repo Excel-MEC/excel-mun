@@ -93,6 +93,8 @@ span.countdownTarget {
     font-weight: 700;
     font-family: 'Lato', sans-serif;
     font-size: 26px; }
+  #contact a:hover {
+    text-decoration: none; }
 
 .map {
   min-width: 300px;

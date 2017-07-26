@@ -1,4 +1,4 @@
-  <div class="contact"id="contact">
+  <div class="contact" id="contact">
     <div class="container">
       <div class="row">
         <div class="contact-us-heading col-md-6 col-md-offset-3 text-center">
@@ -10,7 +10,7 @@
 
         <div class="col-md-6">
             <div>
-                <div class="panel panel-default">
+                <div class="panel panel-default map-panel">
 
                     <div class="panel-body text-center">
 
@@ -29,20 +29,15 @@
 
 
         <div class="col-md-6 text-center contact-no">
-          <h2>GENERAL INQUIRIES </h2>
-          info@srmmun.in
-          <br>
-
-
-          <h2>DELEGATE AFFAIRS</h2>
-          delaffairs@srmmun.in
-          <br>
-
-          <h2>HOSPITALITY</h2>
-          hospitality@srmmun.in<br>
+          {% for c in contacts %}
+          <div class="contact-no-el">
+            <h2>{{c.title}} </h2>
+             <a href="mailto:{{c.contact}}">{{c.contact}}</a>
+            <br>
+          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
   </div>
-
 </div>
