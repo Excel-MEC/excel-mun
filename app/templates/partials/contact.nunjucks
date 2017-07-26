@@ -1,0 +1,43 @@
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-us-heading col-md-6 col-md-offset-3 text-center">
+            <h1>Contact us<h1>
+        </div>
+      </div>
+      <div class="row">
+
+
+        <div class="col-md-6">
+            <div>
+                <div class="panel panel-default map-panel">
+
+                    <div class="panel-body text-center">
+
+
+                        <div id="map1" class="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+
+
+
+
+        <div class="col-md-6 text-center contact-no">
+          {% for c in contacts %}
+          <div class="contact-no-el">
+            <h2>{{c.title}} </h2>
+             <a href="mailto:{{c.contact}}">{{c.contact}}</a>
+            <br>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

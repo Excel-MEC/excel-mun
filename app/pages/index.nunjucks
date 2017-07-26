@@ -12,5 +12,6 @@
     {% include 'partials/marketing.nunjucks' %}
     {% include 'partials/about-us.nunjucks' %}
     {% include 'partials/preparation.nunjucks' %}
+    {% include "partials/contact.nunjucks" %}
     {% include 'partials/footer.nunjucks' %}
 {% endblock %}

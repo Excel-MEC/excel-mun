@@ -12,7 +12,9 @@
         "linksRight":[
             {"title": "About Us", "url":"#about-us"},
             {"title": "Committees", "url":"#marketing"},
-            {"title": "Preparation", "url":"#preparation"}
+            {"title": "Preparation", "url":"#preparation"},
+            {"title": "Contact Us", "url":"#contact"}
+            
         ]
     },
 
@@ -93,6 +95,12 @@
             }
         ]
     },
+
+    "contacts":[
+        {"title": "GENERAL INQUIRIES","contact":"info@somesite.in"},
+        {"title": "DELEGATE AFFAIRS","contact":"delaffairs@somesite.in"},
+        {"title": "HOSPITALITY","contact":"hospitality@somesite.in"}
+    ],
 
     "footer":{
         "social":[

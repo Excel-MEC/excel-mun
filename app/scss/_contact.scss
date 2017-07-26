@@ -1,0 +1,30 @@
+#contact{
+
+  z-index: 10;
+  background-color: #fff;
+  text-transform: uppercase;
+
+  h1{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+}
+
+.map {
+      min-width: 300px;
+      min-height: 300px;
+      width: 100%;
+      height: 100%;
+  }
+
+  @media (max-height: 767px){
+    .map{
+      min-width: unset;
+    }
+  }
