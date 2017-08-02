@@ -1,0 +1,27 @@
+@import 'carousel';
+@import 'navbar';
+@import 'marketing';
+@import 'reg-alert';
+@import 'about-us';
+@import 'preparation';
+@import 'contact';
+@import 'footer';
+
+
+
+body {
+  z-index: 0;
+  position: relative;
+
+
+}
+
+#wrapper{
+
+    z-index:2;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 150px;
+    transition: all 0.5s;
+    background-color: #fff;
+}

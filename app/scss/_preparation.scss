@@ -1,0 +1,30 @@
+#preparation{
+  padding-bottom: 25px;
+
+  border-bottom: thick solid #EEE;
+    h3{
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    h4{
+        text-transform: uppercase;
+        font-family: 'Open Sans' ,sans-serif;
+        font-weight: 400;
+    }
+
+    h5{
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+    }
+}
+
+@media(max-height:767px){
+    #preparation{
+
+        .topic{
+            margin-bottom: 75px;
+        }
+    }
+}

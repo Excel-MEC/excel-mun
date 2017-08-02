@@ -1,0 +1,28 @@
+<footer>
+       <div class="container">
+
+               <div class="row text-center social">
+                  <ul class="list-inline">
+                    {% for s in footer.social %}
+                      <li>
+                          <a href="{{s.url}}"><i class="fa fa-{{s.faicon}} fa-2x"></i></a>
+                      </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="row text-center">
+                      <ul class="menu list-inline">
+                        {% for link in footer.footerlinks %}
+                            <li>
+                                <a href="{{link.url}}">{{link.title}}</a>
+                            </li>
+                        {% endfor %}
+                     </ul>
+                 </div>
+
+                 
+
+
+        </div>
+    </footer>

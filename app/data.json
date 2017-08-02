@@ -1,0 +1,120 @@
+{
+    "siteinfo":{
+        "brand": "MUN",
+        "title": "MUN"
+    },
+
+    "navbar":{
+        "type": "inverse",
+        "links":[
+            {"title": "Link1", "url":"#"}
+        ],
+        "linksRight":[
+            {"title": "Committees", "url":"#marketing"},
+            {"title": "About Us", "url":"#about-us"},            
+            {"title": "Preparation", "url":"#preparation"},
+            {"title": "Contact Us", "url":"#contact"}            
+            
+        ]
+    },
+
+    "carousel":[
+        {
+            "id": 0,
+            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "headline": "Some Headline",
+            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "link": {"title": "Learn More", "href": "#"}
+        },
+        {
+            "id": 1,
+            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "headline": "Some Headline",
+            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "link": {"title": "Learn More", "href": "#"}
+        },
+        {
+            "id": 2,
+            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "headline": "Some Headline",
+            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "link": {"title": "Learn More", "href": "#"}
+        },
+        {
+            "id": 3,
+            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "headline": "Some Headline",
+            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "link": {"title": "Learn More", "href": "#"}
+        }
+    ],
+
+    "marketing":[
+        {
+            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "heading": "Some Heading",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+            "link": { "title":"View More","href":"#" }
+        },
+        {
+            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "heading": "Some Heading",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+            "link": { "title":"View More","href":"#" }
+        },
+        {
+            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
+            "heading": "Some Heading",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+            "link": { "title":"View More","href":"#" }
+        }
+    ],
+
+    "aboutus":{
+        "heading": "ABOUT US",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+    },
+
+    "preparation":{
+        "heading": "PREPARATION",
+        "topics": [
+            {
+                "committeename": "committee 1",
+                "topic": "some topic",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+            },
+            {
+                "committeename": "committee 2",
+                "topic": "some topic",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+            },
+            {
+                "committeename": "committee 3",
+                "topic": "some topic",
+                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+            }
+        ]
+    },
+
+    "contacts":[
+        {"title": "GENERAL INQUIRIES","contact":"info@somesite.in"},
+        {"title": "DELEGATE AFFAIRS","contact":"delaffairs@somesite.in"},
+        {"title": "HOSPITALITY","contact":"hospitality@somesite.in"}
+    ],
+
+    "footer":{
+        "social":[
+            {"faicon": "facebook", "url":"#"},
+            {"faicon": "linkedin", "url":"#"},
+            {"faicon": "youtube", "url":"#"},
+            {"faicon": "instagram", "url":"#"}
+        ],
+
+        "footerlinks":[
+            {"title":"Link1","url":"#"},
+            {"title":"Link2","url":"#"},
+            {"title":"Link3","url":"#"},
+            {"title":"Link4","url":"#"}
+        ]
+    }
+}
