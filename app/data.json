@@ -94,9 +94,9 @@
     },
 
     "contacts":[
-        {"title": "GENERAL INQUIRIES","contact":"info@somesite.in"},
-        {"title": "DELEGATE AFFAIRS","contact":"delaffairs@somesite.in"},
-        {"title": "HOSPITALITY","contact":"hospitality@somesite.in"}
+        {"name":"Adarsh John Roy","title": "Secretary-General","contact":"+917012030939"},
+        {"name":"Juliana Biju","title": "Secretary, MECMUN OC","contact":"+918289914837"},
+        {"name":"Jishnu Nair","title": "Committee Relations, MECMUN OC","contact":"+918347509479"}
     ],
 
     "footer":{
