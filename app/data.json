@@ -51,22 +51,19 @@
 
     "marketing":[
         {
-            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "heading": "Some Heading",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
-            "link": { "title":"View More","href":"#" }
+            "image": {"alt": "some image","src": "img/LogoDISEC.jpg"},
+            "heading": "DISARMAMENT AND INTERNATIONAL SECURITY",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."
         },
         {
-            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "heading": "Some Heading",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
-            "link": { "title":"View More","href":"#" }
+            "image": {"alt": "some image","src": "img/LogoSPECPOL.jpg"},
+            "heading": "SPECIAL POLITICAL AND DECOLONIZATION COMMITTEE",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."
         },
         {
-            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "heading": "Some Heading",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
-            "link": { "title":"View More","href":"#" }
+            "image": {"alt": "some image","src": "img/unsclogo.jpg"},
+            "heading": "UNITED NATIONS SECURITY COUNCIL",
+            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."
         }
     ],
 
@@ -79,9 +76,9 @@
         "heading": "PREPARATION",
         "topics": [
             {
-                "committeename": "committee 1",
-                "topic": "some topic",
-                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+                "committeename": "DISEC",
+                "topic": "The question of disarming nuclear weapons in North Korea",
+                "desc": "North Korea is well on its way to becoming a nuclear-armed state with the Kim Jong-un regime impervious to coercion, sanctions or incentives. Any attempt by the United States to conduct a disarming strike against North Korea’s nuclear arsenal and missile forces would be extremely risky, possibly initiating a full-scale war with Pyongyang. The cornerstone of our collective policy should remain unchanged; to do otherwise would put the entire fabric of the Nuclear Non-Proliferation Treaty at risk and accede to a nuclear weapons capability in the hands of what may be the world’s single most brutal regime. But we also need to recognize reality: North Korea continues to test nuclear weapons—no other country has done so this century. "
             },
             {
                 "committeename": "committee 2",
@@ -89,9 +86,9 @@
                 "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
             },
             {
-                "committeename": "committee 3",
-                "topic": "some topic",
-                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+                "committeename": "UNSC",
+                "topic": "The Question of Humanitarian Intervention around the globe and the review of R2P",
+                "desc": "Human Intervention refers to the form of intervention in a state by another, by virtue of large scale violation of Internationally Recognised Human Rights. Interventions may vary from military action to sanction or aid. The matter of humanitarian intervention has remained an engrossing foreign policy issue, especially since NATO's intervention in Kosovo in 1999. Responsibility to Protect is an internationally accepted norm which allows foreign states to intervene in a state's internal affairs at times when the state fails to protect it’s people. Over the years there has been a constant debate whether the States have absolute authority over their affairs or whether the international community has the right to intervene in a country for humanitarian purposes. This committee aims to explore the morality and legality aspects of the human intervention around the globe and review of the R2P system. "
             }
         ]
     },
