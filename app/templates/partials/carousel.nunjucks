@@ -13,7 +13,9 @@
                 <div class="carousel-caption">
                     <h1>{{c.headline}}</h1>
                     <p>{{c.description}}</p>
-                    <p><a class="btn btn-lg btn-primary" href="{{c.link.href}}" role="button">{{c.link.title}}</a></p>
+                    {% if c.link %}
+                        <p><a class="btn btn-lg btn-primary" href="{{c.link.href}}" role="button">{{c.link.title}}</a></p>
+                    {% endif %}
                 </div>
             </div>
         </div>
