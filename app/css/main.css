@@ -229,6 +229,15 @@ footer .copyright {
 .letter p {
   font-family: 'Open Sans', sans-serif; }
 
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Lato', sans-serif; }
+
+p {
+  font-family: 'Open Sans', sans-serif; }
+
 body {
   z-index: 0;
   position: relative; }
