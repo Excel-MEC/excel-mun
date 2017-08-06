@@ -24,24 +24,18 @@
             "id": 0,
             "image": { "alt":"mec-mun","src": "img/mun-slider.jpg"},
             "headline": "The Voices of Tomorrow",
-            "description": "Future leaders learn to balance society's needs and the interests of the international community at the biggest forum that emulates The United Nations.",
-            "link": {"title": "Learn More", "href": "#"},
-            "class":"hidden-xs"
-
+            "description": "Future leaders learn to balance society's needs and the interests of the international community at the biggest forum that emulates The United Nations."
         },
         {
             "id": 1,
             "image": { "alt":"kochi","src": "img/kochigood.jpg"},
             "headline": "The Epicenter",
-            "description": "One of the fastest growing cities in India with a historic confluence of European and traditional culture, the 'Queen of the Arabian Sea' is the epicenter of everything in Kerala.",
-            "link": {"title": "Learn More", "href": "#"}
-        },
+            "description": "One of the fastest growing cities in India with a historic confluence of European and traditional culture, the 'Queen of the Arabian Sea' is the epicenter of everything in Kerala."        },
         {
             "id": 2,
             "image": { "alt":"gokulam-park-kochi","src": "img/gokulam.jpg"},
             "headline": "Where the Bigwigs Meet",
-            "description": "Situated  at the heart of the hustle and bustle of Kochi, Gokulam Park is a towering symbol of excellence and regularly hosts the who's-who of South India.",
-            "link": {"title": "Learn More", "href": "#"}
+            "description": "Situated  at the heart of the hustle and bustle of Kochi, Gokulam Park is a towering symbol of excellence and regularly hosts the who's-who of South India."
         }
     ],
 
