@@ -1,5 +1,6 @@
 .carousel {
-  height: 500px; }
+  height: 500px;
+  overflow: hidden; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -16,12 +17,22 @@
 
 .carousel-inner > .item > img {
   position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px; }
+  top: 0%;
+  left: 0%;
+  max-width: unset; }
 
-.carousel-caption p, .carousel-caption h1 {
+.portrait {
+  height: 100% !important;
+  left: 50% !important;
+  transform: translateX(-50%); }
+
+.landscape {
+  width: 100% !important;
+  top: -75% !important;
+  transform: translateY(50%); }
+
+.carousel-caption p,
+.carousel-caption h1 {
   font-weight: 600; }
 
 .overlay {
