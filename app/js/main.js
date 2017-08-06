@@ -28,6 +28,7 @@ function setupScrollreveal(){
     sr.reveal('.contact-no-el' ,{duration:1000,origin: "left"},60 );
     sr.reveal('.contact-us-heading',{duration:1000,origin: "right"});
     sr.reveal('.map-panel',{duration:1000,origin: "left"});
+    sr.reveal('.sponsor-img' ,{duration:1000,origin: "bottom"},60 );
 
 
 }
@@ -97,7 +98,7 @@ function init_map1() {
 
 $(document).ready(() =>{
     window.sr = ScrollReveal();
-    runCountDownTimer(2017,8,6);
+    runCountDownTimer(2017,9,29);
     handleScroll();
     setupScrollreveal();
     smoothScroll();
