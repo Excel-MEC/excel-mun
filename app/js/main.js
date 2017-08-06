@@ -3,7 +3,7 @@ const countdownUnits = countdown.DAYS | countdown.HOURS | countdown.MINUTES | co
 function runCountDownTimer(year,month,day){
     const date = new Date(year,month,day);
     setInterval(()=>{
-        $('span.countdownTarget').html(countdown(date).toString());
+        $('span.countdownTarget').html(countdown(date).toString() + " remaining.");
     },1000);
 }
 
@@ -81,8 +81,8 @@ function smoothScroll(){
     });
 }
 
-function init_map1() {
-    var myLocation = new google.maps.LatLng(10.0281967,76.3292422);
+function initMap() {
+    var myLocation = new google.maps.LatLng(9.9938,76.2906);
     var mapOptions = {
         center: myLocation,
         zoom: 19
@@ -98,10 +98,8 @@ function init_map1() {
 
 $(document).ready(() =>{
     window.sr = ScrollReveal();
-    runCountDownTimer(2017,9,29);
+    // runCountDownTimer(2017,9,29);
     handleScroll();
     setupScrollreveal();
     smoothScroll();
-    init_map1();
-
 });
