@@ -18,25 +18,19 @@ function handleScroll() {
 	});
 }
 
-function setupScrollreveal() {
-	sr.reveal(
-		".marketing-element",
-		{ duration: 2000, origin: "bottom", distance: "200px" },
-		60
-	);
-	sr.reveal(".registration-alert", { duration: 500, origin: "top" });
-	sr.reveal(".about-us-heading", { duration: 1000, origin: "left" });
-	sr.reveal(".about-us-desc", { duration: 1000, origin: "right" });
-	sr.reveal(".preparation-heading", { duration: 1000, origin: "left" });
-	sr.reveal(
-		".topic",
-		{ duration: 2000, origin: "bottom", distance: "20px" },
-		60
-	);
-	sr.reveal(".contact-no-el", { duration: 1000, origin: "left" }, 60);
-	sr.reveal(".contact-us-heading", { duration: 1000, origin: "right" });
-	sr.reveal(".map-panel", { duration: 1000, origin: "left" });
-	sr.reveal(".sponsor-img", { duration: 1000, origin: "bottom" }, 60);
+function setupScrollreveal(){
+    sr.reveal('.marketing-element' ,{duration: 2000, origin: "bottom", distance: "200px"},60);
+    sr.reveal('.registration-alert' ,{duration: 500 ,origin: "top"});
+    sr.reveal('.about-us-heading' ,{duration: 1000 ,origin: "left"});
+    sr.reveal('.about-us-desc',{duration:1000,origin: "right"});
+    sr.reveal('.preparation-heading',{duration:1000,origin: "left"});
+    sr.reveal('.topic' ,{duration: 2000, origin: "bottom", distance: "20px"},60);
+    sr.reveal('.contact-no-el' ,{duration:1000,origin: "left"},60 );
+    sr.reveal('.contact-us-heading',{duration:1000,origin: "right"});
+    sr.reveal('.map-panel',{duration:1000,origin: "left"});
+    sr.reveal('.sponsor-img' ,{duration:400,origin: "bottom"},60 );
+
+
 }
 
 function smoothScroll() {
