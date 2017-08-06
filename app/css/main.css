@@ -186,6 +186,15 @@ footer .social a {
 footer .social a:hover {
   color: #6794c2; }
 
+footer .copyright {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  margin-left: -53px; }
+
 .sponsors {
   z-index: 10;
   background-color: #fff; }
@@ -202,6 +211,9 @@ footer .social a:hover {
 @media (max-width: 1024px) {
   .sponsors .img-container {
     margin-top: 25px; } }
+
+.letter p {
+  font-family: 'Open Sans', sans-serif; }
 
 body {
   z-index: 0;

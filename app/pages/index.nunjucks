@@ -9,6 +9,7 @@
     {% include 'partials/navbar.nunjucks' %}
     {% include 'partials/carousel.nunjucks' %}
     {% include 'partials/registration-alert.nunjucks' %}
+    {% include 'partials/letter.nunjucks' %}    
     {% include 'partials/marketing.nunjucks' %}
     {% include 'partials/about-us.nunjucks' %}
     {% include 'partials/preparation.nunjucks' %}

@@ -60,7 +60,7 @@
 
     "aboutus":{
         "heading": "ABOUT US",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+        "desc": "<p>Achieving world peace isn't a piece of cake but we need to start somewhere and the youth is our best bet yet.</p> <p> The world will always need leaders and we at Govt. Model Engineering College, Kochi, Kerala, believe that leadership is inspired by exposure to problems, ideas, situations and perspectives. With a long standing innovation culture and a drive to serve society, the college, its students and alumni have made an impact on all walks of life.</p><p> Continued excellence in technology based education has lead to a collective thought about how to utilize these skills and knowledge for the betterment of the world at large. And thus, the seed for MECMUN was planted. Through the Model United Nations, the college strives to initiate dialogue on complex geo-political issues, that may tilt the balance of the world, and the needs of the people, battling for their rights to voice their thought.</p><p> Through the art of diplomacy and the need for artistry in substantial inquisition, the MECMUN will empower delegates to voice their thoughts on a better tomorrow  and will challenge them to think critically about the working of the world.</p>"
     },
 
     "preparation":{
@@ -103,10 +103,7 @@
         ],
 
         "footerlinks":[
-            {"title":"Link1","url":"#"},
-            {"title":"Link2","url":"#"},
-            {"title":"Link3","url":"#"},
-            {"title":"Link4","url":"#"}
+        
         ]
     }
 }
