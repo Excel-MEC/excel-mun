@@ -22,7 +22,7 @@
     "carousel":[
         {
             "id": 0,
-            "image": { "alt":"mec-mun","src": "img/mun-slider1.jpg"},
+            "image": { "alt":"mec-mun","src": "img/mun-slider.jpg"},
             "headline": "The Voices of Tomorrow",
             "description": "Future leaders learn to balance society's needs and the interests of the international community at the biggest forum that emulates The United Nations.",
             "link": {"title": "Learn More", "href": "#"},
