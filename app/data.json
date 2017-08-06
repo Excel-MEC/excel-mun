@@ -39,17 +39,18 @@
         {
             "image": {"alt": "some image","src": "img/LogoDISEC.jpg"},
             "heading": "DISARMAMENT AND INTERNATIONAL SECURITY",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."
+            "description": "It considers all disarmament and international security matters within the scope of the Charter or relating to the powers and functions of any other organ of the United Nations; the general principles of cooperation in the maintenance of international peace and security, as well as principles governing disarmament and the regulation of armaments; promotion of cooperative arrangements and measures aimed at strengthening stability through lower levels of armaments."
         },
         {
             "image": {"alt": "some image","src": "img/LogoSPECPOL.jpg"},
             "heading": "SPECIAL POLITICAL AND DECOLONIZATION COMMITTEE",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."
+            "description": "Initially, the SPECPOL committee was mandated to tackle issues relating to decolonization after World War II. However when most colonies had gained independence by 1990, “Special political” responsibilities were given to 4th. Together, special political and decolonization issues address a variety of topics including refugees, human rights, peacekeeping, mine action, outer space and more."
         },
         {
             "image": {"alt": "some image","src": "img/unsclogo.jpg"},
             "heading": "UNITED NATIONS SECURITY COUNCIL",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna."
+            "description":"The Security Council takes the lead in determining the existence of a threat to the peace or act of aggression. It calls upon the parties to a dispute to settle it by peaceful means and recommends methods of adjustment or terms of settlement. In some cases, the Security Council can resort to imposing sanctions or even authorize the use of force to maintain or restore international peace and security."
+
         }
     ],
 
