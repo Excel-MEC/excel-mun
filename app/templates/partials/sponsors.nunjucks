@@ -1,7 +1,7 @@
 <div class="container sponsors">
     <div class="row">
         {% for img in sponsors %}
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="img-container">
                     <a href="{{img.url}}">
                         <img src="{{img.src}}" alt="{{img.alt}}" class="sponsor-img">

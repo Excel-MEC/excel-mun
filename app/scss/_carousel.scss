@@ -26,6 +26,11 @@
   height: 500px;
 }
 
+.carousel-caption{
+  p,h1{
+    font-weight: 600;    
+  }
+}
 .overlay {
   background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
   position: absolute;

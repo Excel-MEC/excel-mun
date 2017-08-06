@@ -91,9 +91,11 @@
     ],
 
     "sponsors":[
-        {"alt":"excelmec-logo","src":"img/excel-logo.png","url":"#"},
+        {"alt":"excelmec-logo","src":"img/excel-logo.png","url":"http://excelmec.org"},
         {"alt":"gokulam-park-logo","src":"img/gokulam-logo.png","url":"#"},
-        {"alt":"mecmun-logo","src":"img/mun-logo.png","url":"#"}
+        {"alt":"mecmun-logo","src":"img/mun-logo.png","url":"#"},
+        {"alt":"mecmun-logo","src":"img/mec-logo.png","url":"http://www.mec.ac.in/"}
+        
     ],
 
     "footer":{
