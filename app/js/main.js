@@ -28,7 +28,7 @@ function setupScrollreveal(){
     sr.reveal('.contact-no-el' ,{duration:1000,origin: "left"},60 );
     sr.reveal('.contact-us-heading',{duration:1000,origin: "right"});
     sr.reveal('.map-panel',{duration:1000,origin: "left"});
-    sr.reveal('.sponsor-img' ,{duration:1000,origin: "bottom"},60 );
+    sr.reveal('.sponsor-img' ,{duration:400,origin: "bottom"},60 );
 
 
 }
