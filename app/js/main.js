@@ -105,7 +105,8 @@ function initMap() {
 
 function carouselFill() {
 	var children = $(".item>img"),
-		element;
+		element,
+		i;
 	console.log(children);
 	for (i = 0; i < children.length; ++i) {
 		element = children[i];
