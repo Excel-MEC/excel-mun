@@ -104,12 +104,16 @@ function initMap() {
 }
 
 function carouselFill() {
-	var children = $(".item").children().each(function(child, element) {
-		console.log($(element).width());
-		if ($(element).width() > $(element).height())
-			$(".item>img").addClass("landscape");
-		else $(".item>img").addClass("portrait");
-	});
+	var children = $(".item>img"),
+		element;
+	console.log(children);
+	for (i = 0; i < children.length; ++i) {
+		element = children[i];
+		console.log(element.height);
+		if (element.width - window.innerWidth < element.height - 500) {
+			element.classList.add("landscape");
+		} else element.classList.add("portrait");
+	}
 }
 
 $(document).ready(() => {
