@@ -27,9 +27,7 @@
   transform: translateX(-50%); }
 
 .landscape {
-  width: 100% !important;
-  top: 0% !important;
-  transform: translateY(-25%); }
+  width: 100% !important; }
 
 .carousel-caption p,
 .carousel-caption h1 {

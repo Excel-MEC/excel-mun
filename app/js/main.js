@@ -18,19 +18,25 @@ function handleScroll() {
 	});
 }
 
-function setupScrollreveal(){
-    sr.reveal('.marketing-element' ,{duration: 2000, origin: "bottom", distance: "200px"},60);
-    sr.reveal('.registration-alert' ,{duration: 500 ,origin: "top"});
-    sr.reveal('.about-us-heading' ,{duration: 1000 ,origin: "left"});
-    sr.reveal('.about-us-desc',{duration:1000,origin: "right"});
-    sr.reveal('.preparation-heading',{duration:1000,origin: "left"});
-    sr.reveal('.topic' ,{duration: 2000, origin: "bottom", distance: "20px"},60);
-    sr.reveal('.contact-no-el' ,{duration:1000,origin: "left"},60 );
-    sr.reveal('.contact-us-heading',{duration:1000,origin: "right"});
-    sr.reveal('.map-panel',{duration:1000,origin: "left"});
-    sr.reveal('.sponsor-img' ,{duration:400,origin: "bottom"},60 );
-
-
+function setupScrollreveal() {
+	sr.reveal(
+		".marketing-element",
+		{ duration: 2000, origin: "bottom", distance: "200px" },
+		60
+	);
+	sr.reveal(".registration-alert", { duration: 500, origin: "top" });
+	sr.reveal(".about-us-heading", { duration: 1000, origin: "left" });
+	sr.reveal(".about-us-desc", { duration: 1000, origin: "right" });
+	sr.reveal(".preparation-heading", { duration: 1000, origin: "left" });
+	sr.reveal(
+		".topic",
+		{ duration: 2000, origin: "bottom", distance: "20px" },
+		60
+	);
+	sr.reveal(".contact-no-el", { duration: 1000, origin: "left" }, 60);
+	sr.reveal(".contact-us-heading", { duration: 1000, origin: "right" });
+	sr.reveal(".map-panel", { duration: 1000, origin: "left" });
+	sr.reveal(".sponsor-img", { duration: 400, origin: "bottom" }, 60);
 }
 
 function smoothScroll() {
@@ -103,10 +109,18 @@ function carouselFill() {
 	console.log(children);
 	for (i = 0; i < children.length; ++i) {
 		element = children[i];
-		console.log(element.height);
-		if (element.width - window.innerWidth < element.height - 500) {
+		var ratioW = element.height / 500,
+			ratioH = element.width / window.innerWidth;
+		var transWidth = element.width / ratioW,
+			transHeight = element.height / ratioH;
+		console.log(transWidth, transHeight);
+		if (transWidth - window.innerWidth < transHeight - 500) {
 			element.classList.add("landscape");
-		} else element.classList.add("portrait");
+			var vAlign = (500 - transHeight) / 2;
+			element.style.top = "-" + vAlign + "px";
+		} else {
+			element.classList.add("portrait");
+		}
 	}
 }
 
