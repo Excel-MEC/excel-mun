@@ -69,17 +69,17 @@
             {
                 "committeename": "DISEC",
                 "topic": "The question of disarming nuclear weapons in North Korea",
-                "desc": "North Korea is well on its way to becoming a nuclear-armed state with the Kim Jong-un regime impervious to coercion, sanctions or incentives. Any attempt by the United States to conduct a disarming strike against North Korea’s nuclear arsenal and missile forces would be extremely risky, possibly initiating a full-scale war with Pyongyang. The cornerstone of our collective policy should remain unchanged; to do otherwise would put the entire fabric of the Nuclear Non-Proliferation Treaty at risk and accede to a nuclear weapons capability in the hands of what may be the world’s single most brutal regime. But we also need to recognize reality: North Korea continues to test nuclear weapons—no other country has done so this century. "
+                "desc": "North Korea is well on its way to becoming a nuclear-armed state with the Kim Jong-un regime impervious to coercion, sanctions or incentives. Any attempt by the NATO to conduct a disarming strike against North Korea’s nuclear arsenal and missile forces would be extremely risky, possibly initiating a full-scale war with Pyongyang. The cornerstone of our collective policy should remain unchanged; to do otherwise would put the entire fabric of the Nuclear Non-Proliferation Treaty at risk and accede to a nuclear weapons capability in the hands of what may be the world’s single most brutal regime. But we also need to recognize reality: North Korea continues to test nuclear weapons—no other country has done so this century. "
             },
             {
                 "committeename": "SPECPOL",
                 "topic": "Comprehensive review on Maritime conflicts around the globe, with special reference to South China Sea issue",
-                "desc": "The issue of of South China Sea, has been resurfacing every now and then for the past ten years. Nations have made efforts to gain control over the oceans and its resources, which often leads into conflict. The region of South East Asia, has been the most disputed, oceanic regions over the last few decades.The 1982 United Nations Convention on the Law of the Sea defines three distinct areas-territorial waters, exclusive economic zones, and international waters. Territorial waters are those under government sovereign control and legally recognized as twelve nautical miles from the low water mark of a coastal state, but the issue of common EEZs, has created tensions in many regions around the globe. The SPECPOL will meet this session, to analyze these conflicts and deliberate on these issue for the betterment of the global community."
+                "desc": "The issue of of South China Sea, has been resurfacing consistently for the past ten years. Nations have made efforts to gain control over it and its resources, which has often lead to conflict. The region of South East Asia, has been the most disputed, oceanic regions over the last few decades.The 1982 United Nations Convention on the Law of the Sea defines three distinct areas - territorial waters, exclusive economic zones, and international waters. Territorial waters are those under government sovereign control and legally recognized as twelve nautical miles from the low water mark of a coastal state, but the issue of common SEZs, has created tensions in many regions around the globe. The SPECPOL will meet this session, to analyze these conflicts and deliberate on these issue for the betterment of the global community."
             },
             {
                 "committeename": "UNSC",
                 "topic": "The Question of Humanitarian Intervention around the globe and the review of R2P",
-                "desc": "Human Intervention refers to the form of intervention in a state by another, by virtue of large scale violation of Internationally Recognised Human Rights. Interventions may vary from military action to sanction or aid. The matter of humanitarian intervention has remained an engrossing foreign policy issue, especially since NATO's intervention in Kosovo in 1999. Responsibility to Protect is an internationally accepted norm which allows foreign states to intervene in a state's internal affairs at times when the state fails to protect it’s people. Over the years there has been a constant debate whether the States have absolute authority over their affairs or whether the international community has the right to intervene in a country for humanitarian purposes. This committee aims to explore the morality and legality aspects of the human intervention around the globe and review of the R2P system. "
+                "desc": "Human Intervention refers to a form of intervention in a state by another, by virtue of large scale violation of internationally recognised Human Rights. Interventions may vary from military action to sanctions or aid. The matter of humanitarian intervention has remained an engrossing foreign policy issue, especially since NATO's intervention in Kosovo in 1999. 'Responsibility to Protect' is an internationally accepted norm which allows foreign states to intervene in a state's internal affairs at times when the state fails to protect it’s people. Over the years there has been a constant debate whether the States have absolute authority over their affairs or whether the international community has the right to intervene in a country for humanitarian purposes. This committee aims to explore the morality and legality aspects of the human intervention around the globe and review of the R2P system."
             }
         ]
     },
@@ -100,8 +100,8 @@
 
     "footer":{
         "social":[
-            {"faicon": "facebook", "url":"#"},
-            {"faicon": "instagram", "url":"#"}
+            {"faicon": "facebook", "url":"https://www.facebook.com/mecmun17/"},
+            {"faicon": "instagram", "url":"https://www.instagram.com/mecmun2017/"}
         ],
 
         "footerlinks":[
