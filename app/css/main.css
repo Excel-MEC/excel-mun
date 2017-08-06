@@ -1,9 +1,14 @@
 .carousel {
-  height: 500px; }
+  height: 500px;
+  overflow: hidden; }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10; }
+  z-index: 20; }
+  .carousel-caption h1 {
+    font-weight: 400; }
+  .carousel-caption p {
+    font-weight: 500; }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
@@ -12,15 +17,40 @@
 
 .carousel-inner > .item > img {
   position: absolute;
+  top: 0%;
+  left: 0%;
+  max-width: unset; }
+
+.portrait {
+  height: 100% !important;
+  left: 50% !important;
+  transform: translateX(-50%); }
+
+.landscape {
+  width: 100% !important;
+  top: 0% !important;
+  transform: translateY(-25%); }
+
+.carousel-caption p,
+.carousel-caption h1 {
+  font-weight: 600; }
+
+.overlay {
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 500px; }
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+  opacity: .25; }
 
 .navbar {
   margin-bottom: 0 !important;
   width: 100%;
   z-index: 100;
+  min-height: 49px;
   transition: background-color 0.3s linear; }
   .navbar ul.nav a {
     padding-top: 15px;
@@ -28,7 +58,16 @@
     font-weight: 600; }
 
 .navbar-inverse {
-  background-color: #4B77BE; }
+  background-color: #212121; }
+
+.brand-img {
+  height: 40px;
+  position: absolute;
+  top: 5px; }
+
+.brand-text {
+  margin-left: 46px;
+  line-height: 1.38; }
 
 @media (min-width: 767px) {
   .navbar-transparent {
@@ -44,6 +83,10 @@
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px; }
+
+@media (min-width: 1024px) {
+  .marketing h2 {
+    min-height: 105px; } }
 
 .registration-alert {
   text-align: center; }
@@ -80,9 +123,13 @@ span.countdownTarget {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
-@media (max-height: 767px) {
+@media (max-width: 1024px) {
   #preparation .topic {
     margin-bottom: 75px; } }
+
+@media (min-width: 1024px) {
+  #preparation h4 {
+    min-height: 80px; } }
 
 #contact {
   z-index: 10;
@@ -95,6 +142,16 @@ span.countdownTarget {
     font-size: 26px; }
   #contact a:hover {
     text-decoration: none; }
+  #contact h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: uppercase; }
+  #contact h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+    text-transform: uppercase; }
 
 .map {
   min-width: 300px;
@@ -142,6 +199,44 @@ footer .social a {
 
 footer .social a:hover {
   color: #6794c2; }
+
+footer .copyright {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  margin-left: -53px; }
+
+.sponsors {
+  z-index: 10;
+  background-color: #fff; }
+  .sponsors .sponsor-img {
+    width: 100%; }
+  .sponsors .img-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px; }
+
+@media (max-width: 1024px) {
+  .sponsors .img-container {
+    margin-top: 25px; } }
+
+.letter p {
+  font-family: 'Open Sans', sans-serif; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Lato', sans-serif; }
+
+p {
+  font-family: 'Open Sans', sans-serif; }
 
 body {
   z-index: 0;

@@ -1,13 +1,14 @@
 {
     "siteinfo":{
-        "brand": "MUN",
-        "title": "MUN"
+        "brand": "MECMUN",
+        "brandimg": "img/mun-brand.png",
+        "title": "MECMUN"
     },
 
     "navbar":{
         "type": "inverse",
         "links":[
-            {"title": "Link1", "url":"#"}
+
         ],
         "linksRight":[
             {"title": "Committees", "url":"#marketing"},
@@ -21,100 +22,90 @@
     "carousel":[
         {
             "id": 0,
-            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "headline": "Some Headline",
-            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
-            "link": {"title": "Learn More", "href": "#"}
+            "image": { "alt":"mec-mun","src": "img/mun-slider.jpg"},
+            "headline": "The Voices of Tomorrow",
+            "description": "Future leaders learn to balance society's needs and the interests of the international community at the biggest forum that emulates The United Nations."
         },
         {
             "id": 1,
-            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "headline": "Some Headline",
-            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
-            "link": {"title": "Learn More", "href": "#"}
-        },
+            "image": { "alt":"kochi","src": "img/kochigood.jpg"},
+            "headline": "The Epicenter",
+            "description": "One of the fastest growing cities in India with a historic confluence of European and traditional culture, the 'Queen of the Arabian Sea' is the epicenter of everything in Kerala."        },
         {
             "id": 2,
-            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "headline": "Some Headline",
-            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
-            "link": {"title": "Learn More", "href": "#"}
-        },
-        {
-            "id": 3,
-            "image": { "alt":"some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "headline": "Some Headline",
-            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
-            "link": {"title": "Learn More", "href": "#"}
+            "image": { "alt":"gokulam-park-kochi","src": "img/gokulam.jpg"},
+            "headline": "Where the Bigwigs Meet",
+            "description": "Situated  at the heart of the hustle and bustle of Kochi, Gokulam Park is a towering symbol of excellence and regularly hosts the who's-who of South India."
         }
     ],
 
     "marketing":[
         {
-            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "heading": "Some Heading",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
-            "link": { "title":"View More","href":"#" }
+            "image": {"alt": "some image","src": "img/LogoDISEC.jpg"},
+            "heading": "DISARMAMENT AND INTERNATIONAL SECURITY",
+            "description": "It considers all disarmament and international security matters within the scope of the Charter or relating to the powers and functions of any other organ of the United Nations; the general principles of cooperation in the maintenance of international peace and security, as well as principles governing disarmament and the regulation of armaments; promotion of cooperative arrangements and measures aimed at strengthening stability through lower levels of armaments."
         },
         {
-            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "heading": "Some Heading",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
-            "link": { "title":"View More","href":"#" }
+            "image": {"alt": "some image","src": "img/LogoSPECPOL.jpg"},
+            "heading": "SPECIAL POLITICAL AND DECOLONIZATION COMMITTEE",
+            "description": "Initially, the SPECPOL committee was mandated to tackle issues relating to decolonization after World War II. However when most colonies had gained independence by 1990, “Special political” responsibilities were given to it. Together, special political and decolonization issues address a variety of topics including refugees, human rights, peacekeeping, mine action, outer space and more."
         },
         {
-            "image": {"alt": "some image","src": "data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="},
-            "heading": "Some Heading",
-            "description": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
-            "link": { "title":"View More","href":"#" }
+            "image": {"alt": "some image","src": "img/unsclogo.jpg"},
+            "heading": "UNITED NATIONS SECURITY COUNCIL",
+            "description":"The Security Council takes the lead in determining the existence of a threat to the peace or act of aggression. It calls upon the parties to a dispute to settle it by peaceful means and recommends methods of adjustment or terms of settlement. In some cases, the Security Council can resort to imposing sanctions or even authorize the use of force to maintain or restore international peace and security."
+
         }
     ],
 
     "aboutus":{
         "heading": "ABOUT US",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+        "desc": "<p>Achieving world peace isn't a piece of cake but we need to start somewhere and the youth is our best bet yet.</p> <p> The world will always need leaders and we at Govt. Model Engineering College, Kochi, Kerala, believe that leadership is inspired by exposure to problems, ideas, situations and perspectives. With a long standing innovation culture and a drive to serve society, the college, its students and alumni have made an impact on all walks of life.</p><p> Continued excellence in technology based education has lead to a collective thought about how to utilize these skills and knowledge for the betterment of the world at large. And thus, the seed for MECMUN was planted. Through the Model United Nations, the college strives to initiate dialogue on complex geo-political issues, that may tilt the balance of the world, and the needs of the people, battling for their rights to voice their thought.</p><p> Through the art of diplomacy and the need for artistry in substantial inquisition, the MECMUN will empower delegates to voice their thoughts on a better tomorrow  and will challenge them to think critically about the working of the world.</p>"
     },
 
     "preparation":{
         "heading": "PREPARATION",
         "topics": [
             {
-                "committeename": "committee 1",
-                "topic": "some topic",
-                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+                "committeename": "DISEC",
+                "topic": "The question of disarming nuclear weapons in North Korea",
+                "desc": "North Korea is well on its way to becoming a nuclear-armed state with the Kim Jong-un regime impervious to coercion, sanctions or incentives. Any attempt by the NATO to conduct a disarming strike against North Korea’s nuclear arsenal and missile forces would be extremely risky, possibly initiating a full-scale war with Pyongyang. The cornerstone of our collective policy should remain unchanged; to do otherwise would put the entire fabric of the Nuclear Non-Proliferation Treaty at risk and accede to a nuclear weapons capability in the hands of what may be the world’s single most brutal regime. But we also need to recognize reality: North Korea continues to test nuclear weapons—no other country has done so this century. "
             },
             {
-                "committeename": "committee 2",
-                "topic": "some topic",
-                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+                "committeename": "SPECPOL",
+                "topic": "Comprehensive review on Maritime conflicts around the globe, with special reference to South China Sea issue",
+                "desc": "The issue of of South China Sea, has been resurfacing consistently for the past ten years. Nations have made efforts to gain control over it and its resources, which has often lead to conflict. The region of South East Asia, has been the most disputed, oceanic regions over the last few decades.The 1982 United Nations Convention on the Law of the Sea defines three distinct areas - territorial waters, exclusive economic zones, and international waters. Territorial waters are those under government sovereign control and legally recognized as twelve nautical miles from the low water mark of a coastal state, but the issue of common SEZs, has created tensions in many regions around the globe. The SPECPOL will meet this session, to analyze these conflicts and deliberate on these issue for the betterment of the global community."
             },
             {
-                "committeename": "committee 3",
-                "topic": "some topic",
-                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+                "committeename": "UNSC",
+                "topic": "The Question of Humanitarian Intervention around the globe and the review of R2P",
+                "desc": "Human Intervention refers to a form of intervention in a state by another, by virtue of large scale violation of internationally recognised Human Rights. Interventions may vary from military action to sanctions or aid. The matter of humanitarian intervention has remained an engrossing foreign policy issue, especially since NATO's intervention in Kosovo in 1999. 'Responsibility to Protect' is an internationally accepted norm which allows foreign states to intervene in a state's internal affairs at times when the state fails to protect it’s people. Over the years there has been a constant debate whether the States have absolute authority over their affairs or whether the international community has the right to intervene in a country for humanitarian purposes. This committee aims to explore the morality and legality aspects of the human intervention around the globe and review of the R2P system."
             }
         ]
     },
 
     "contacts":[
-        {"title": "GENERAL INQUIRIES","contact":"info@somesite.in"},
-        {"title": "DELEGATE AFFAIRS","contact":"delaffairs@somesite.in"},
-        {"title": "HOSPITALITY","contact":"hospitality@somesite.in"}
+        {"name":"Adarsh John Roy","title": "Secretary-General","contact":"+917012030939"},
+        {"name":"Juliana Biju","title": "Secretary, MECMUN OC","contact":"+918289914837"},
+        {"name":"Jishnu Nair","title": "Committee Relations, MECMUN OC","contact":"+918347509479"}
+    ],
+
+    "sponsors":[
+        {"alt":"excelmec-logo","src":"img/excel-logo.png","url":"http://excelmec.org"},
+        {"alt":"gokulam-park-logo","src":"img/gokulam-logo.png","url":"#"},
+        {"alt":"mecmun-logo","src":"img/mun-logo.png","url":"#"},
+        {"alt":"mecmun-logo","src":"img/mec-logo.png","url":"http://www.mec.ac.in/"}
+        
     ],
 
     "footer":{
         "social":[
-            {"faicon": "facebook", "url":"#"},
-            {"faicon": "linkedin", "url":"#"},
-            {"faicon": "youtube", "url":"#"},
-            {"faicon": "instagram", "url":"#"}
+            {"faicon": "facebook", "url":"https://www.facebook.com/mecmun17/"},
+            {"faicon": "instagram", "url":"https://www.instagram.com/mecmun2017/"}
         ],
 
         "footerlinks":[
-            {"title":"Link1","url":"#"},
-            {"title":"Link2","url":"#"},
-            {"title":"Link3","url":"#"},
-            {"title":"Link4","url":"#"}
+        
         ]
     }
 }

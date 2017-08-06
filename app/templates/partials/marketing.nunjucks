@@ -5,7 +5,9 @@
           <img class="img-circle" src="{{m.image.src}}" alt="{{m.image.alt}}" width="140" height="140">
           <h2>{{m.heading}}</h2>
           <p>{{m.description}}</p>
-          <p><a class="btn btn-default" href="{{m.link.href}}" role="button">{{m.link.title}}</a></p>
+          {% if m.link %}
+            <p><a class="btn btn-default" href="{{m.link.href}}" role="button">{{m.link.title}}</a></p>
+          {% endif %}
         </div><!-- /.col-lg-4 -->
       {% endfor %}
       </div><!-- /.row -->

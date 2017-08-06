@@ -7,7 +7,7 @@
             </div>
             <div class="col-xs-12">
                 <p class="about-us-desc">
-                {{aboutus.desc}}
+                {{aboutus.desc | safe}}
                 </p>
             </div>
         </div>

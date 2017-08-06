@@ -17,11 +17,20 @@
     }
 }
 
-@media(max-height:767px){
+@media(max-width:1024px){
     #preparation{
 
         .topic{
             margin-bottom: 75px;
         }
+        
     }
+}
+
+@media(min-width:1024px){
+    #preparation{
+        h4{
+            min-height: 80px;            
+        }
+    }    
 }
