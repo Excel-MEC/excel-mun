@@ -64,12 +64,15 @@
   text-align: center; }
 
 .marketing h2 {
-  font-weight: normal;
-  min-height: 105px; }
+  font-weight: normal; }
 
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px; }
+
+@media (min-width: 1024px) {
+  .marketing h2 {
+    min-height: 105px; } }
 
 .registration-alert {
   text-align: center; }
@@ -107,7 +110,7 @@ span.countdownTarget {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
-@media (max-height: 767px) {
+@media (max-height: 1024px) {
   #preparation .topic {
     margin-bottom: 75px; } }
 
