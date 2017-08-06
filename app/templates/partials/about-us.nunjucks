@@ -6,9 +6,9 @@
                 
             </div>
             <div class="col-xs-12">
-                <p class="about-us-desc">
+                <div class="about-us-desc">
                 {{aboutus.desc | safe}}
-                </p>
+                </div>
             </div>
         </div>
     </div>
