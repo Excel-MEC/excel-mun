@@ -10,11 +10,13 @@ const useref = require('gulp-useref'),
     babel = require('gulp-babel'),
     nunjucksRender = require('gulp-nunjucks-render'),
     data = require('gulp-data'),
-    loadJsonFile = require('load-json-file');
+    loadJsonFile = require('load-json-file'),
+    imagemin = require('gulp-imagemin');
 
 
 gulp.task('images', function () {
     return gulp.src('app/img/**/*.+(jpg|png|gif|svg)')
+        .pipe(imagemin())
         .pipe(gulp.dest('dist/img'));
 });
 
