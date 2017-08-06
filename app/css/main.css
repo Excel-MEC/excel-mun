@@ -103,16 +103,19 @@ span.countdownTarget {
 #preparation h4 {
   text-transform: uppercase;
   font-family: 'Open Sans' ,sans-serif;
-  font-weight: 400;
-  min-height: 80px; }
+  font-weight: 400; }
 
 #preparation h5 {
   font-family: 'Lato', sans-serif;
   font-weight: 300; }
 
-@media (max-height: 1024px) {
+@media (max-width: 1024px) {
   #preparation .topic {
     margin-bottom: 75px; } }
+
+@media (min-width: 1024px) {
+  #preparation h4 {
+    min-height: 80px; } }
 
 #contact {
   z-index: 10;
@@ -182,6 +185,23 @@ footer .social a {
 
 footer .social a:hover {
   color: #6794c2; }
+
+.sponsors {
+  z-index: 10;
+  background-color: #fff; }
+  .sponsors .sponsor-img {
+    width: 100%; }
+  .sponsors .img-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px; }
+
+@media (max-width: 1024px) {
+  .sponsors .img-container {
+    margin-top: 25px; } }
 
 body {
   z-index: 0;

@@ -22,7 +22,7 @@
     "carousel":[
         {
             "id": 0,
-            "image": { "alt":"mec-mun","src": "img/mun-slider.jpg"},
+            "image": { "alt":"mec-mun","src": "img/mun-slider1.jpg"},
             "headline": "The Voices of Tomorrow",
             "description": "Future leaders learn to balance society's needs and the interests of the international community at the biggest forum that emulates The United Nations.",
             "link": {"title": "Learn More", "href": "#"},
@@ -94,6 +94,12 @@
         {"name":"Adarsh John Roy","title": "Secretary-General","contact":"+917012030939"},
         {"name":"Juliana Biju","title": "Secretary, MECMUN OC","contact":"+918289914837"},
         {"name":"Jishnu Nair","title": "Committee Relations, MECMUN OC","contact":"+918347509479"}
+    ],
+
+    "sponsors":[
+        {"alt":"excelmec-logo","src":"img/excel-logo.png","url":"#"},
+        {"alt":"gokulam-park-logo","src":"img/gokulam-logo.png","url":"#"},
+        {"alt":"mecmun-logo","src":"img/mun-logo.png","url":"#"}
     ],
 
     "footer":{

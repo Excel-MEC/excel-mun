@@ -13,5 +13,6 @@
     {% include 'partials/about-us.nunjucks' %}
     {% include 'partials/preparation.nunjucks' %}
     {% include "partials/contact.nunjucks" %}
+    {% include "partials/sponsors.nunjucks" %}
     {% include 'partials/footer.nunjucks' %}
 {% endblock %}

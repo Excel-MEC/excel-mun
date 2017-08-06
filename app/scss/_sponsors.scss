@@ -1,0 +1,27 @@
+.sponsors{
+    z-index: 10;
+    background-color: #fff;
+
+
+    .sponsor-img{
+        width: 100%;
+    }
+
+    .img-container{
+        width: 60%;
+        // horizontal and vertical centering
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+    }
+}
+
+@media (max-width:1024px){
+    .sponsors{
+        .img-container{
+            margin-top: 25px;
+        }
+    }
+}
