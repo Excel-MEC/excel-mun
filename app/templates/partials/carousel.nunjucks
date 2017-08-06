@@ -6,6 +6,7 @@
     {% endfor %}
     </ol>
     <div class="carousel-inner" role="listbox">
+    <div class="overlay"></div>
     {% for c in carousel %}
         <div class="item {% if c.id == 0 %}active {% endif %}">
             <img src="{{c.image.src}}" alt="{{c.image.alt}}">

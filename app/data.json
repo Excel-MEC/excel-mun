@@ -1,13 +1,14 @@
 {
     "siteinfo":{
         "brand": "MECMUN",
+        "brandimg": "img/mun-brand.png",
         "title": "MECMUN"
     },
 
     "navbar":{
         "type": "inverse",
         "links":[
-            {"title": "Link1", "url":"#"}
+
         ],
         "linksRight":[
             {"title": "Committees", "url":"#marketing"},
@@ -22,15 +23,15 @@
         {
             "id": 0,
             "image": { "alt":"some image","src": "img/kochi.jpg"},
-            "headline": "Some Headline",
-            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "headline": "The Epicenter",
+            "description": "One of the fastest growing cities in India with a historic confluence of European and traditional culture, the 'Queen of the Arabian Sea' is the epicenter of everything in Kerala.",
             "link": {"title": "Learn More", "href": "#"}
         },
         {
             "id": 1,
-            "image": { "alt":"some image","src": "img/Gokulam.jpg"},
-            "headline": "Some Headline",
-            "description": "Note: If you're viewing this page via a Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.",
+            "image": { "alt":"gokulam-park-kochi","src": "img/Gokulam.jpg"},
+            "headline": "Where the Bigwigs Meet",
+            "description": "Situated  at the heart of the hustle and bustle of Kochi, Gokulam Park is a towering symbol of excellence and regularly hosts the who's-who of South India.",
             "link": {"title": "Learn More", "href": "#"}
         }
     ],
@@ -68,9 +69,9 @@
                 "desc": "North Korea is well on its way to becoming a nuclear-armed state with the Kim Jong-un regime impervious to coercion, sanctions or incentives. Any attempt by the United States to conduct a disarming strike against North Korea’s nuclear arsenal and missile forces would be extremely risky, possibly initiating a full-scale war with Pyongyang. The cornerstone of our collective policy should remain unchanged; to do otherwise would put the entire fabric of the Nuclear Non-Proliferation Treaty at risk and accede to a nuclear weapons capability in the hands of what may be the world’s single most brutal regime. But we also need to recognize reality: North Korea continues to test nuclear weapons—no other country has done so this century. "
             },
             {
-                "committeename": "committee 2",
-                "topic": "some topic",
-                "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat"
+                "committeename": "SPECPOL",
+                "topic": "Comprehensive review on Maritime conflicts around the globe, with special reference to South China Sea issue",
+                "desc": "The issue of of South China Sea, has been resurfacing every now and then for the past ten years. Nations have made efforts to gain control over the oceans and its resources, which often leads into conflict. The region of South East Asia, has been the most disputed, oceanic regions over the last few decades.The 1982 United Nations Convention on the Law of the Sea defines three distinct areas-territorial waters, exclusive economic zones, and international waters. Territorial waters are those under government sovereign control and legally recognized as twelve nautical miles from the low water mark of a coastal state, but the issue of common EEZs, has created tensions in many regions around the globe. The SPECPOL will meet this session, to analyze these conflicts and deliberate on these issue for the betterment of the global community."
             },
             {
                 "committeename": "UNSC",
@@ -89,7 +90,7 @@
     "footer":{
         "social":[
             {"faicon": "facebook", "url":"#"},
-            {"faicon": "youtube", "url":"#"}
+            {"faicon": "instagram", "url":"#"}
         ],
 
         "footerlinks":[
