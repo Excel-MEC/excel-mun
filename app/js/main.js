@@ -117,7 +117,8 @@ function carouselFill() {
 		if (transWidth - window.innerWidth < transHeight - 500) {
 			element.classList.add("landscape");
 			var vAlign = (500 - transHeight) / 2;
-			element.style.top = "-" + vAlign + "px";
+			console.log(vAlign);
+			element.style.top = vAlign + "px";
 		} else {
 			element.classList.add("portrait");
 		}
