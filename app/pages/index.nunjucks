@@ -6,6 +6,7 @@
 
 
 {% block content %}
+    {% include 'partials/notifications-modal.nunjucks' %}
     {% include 'partials/navbar.nunjucks' %}
     {% include 'partials/carousel.nunjucks' %}
     {% include 'partials/registration-alert.nunjucks' %}
