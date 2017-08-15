@@ -14,7 +14,7 @@
       </div>
       <div class="modal-body notif-body">
         {% for notif in notifications %}
-            <h3><a class="notif-link" href="{{notif.link}}">{{notif.title}}</a></h3>
+            <h3><a class="notif-link" href="{{notif.link}}" target="_blank">{{notif.title}}</a></h3>
             <hr>
         {% endfor %}
       </div>
