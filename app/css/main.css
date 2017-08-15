@@ -266,7 +266,8 @@ footer .copyright {
 .notif-link:visited,
 .notif-link:focus {
   color: unset;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 500; }
 
 .notif-body hr:last-child,
 .notif-body hr:only-child {
