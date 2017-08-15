@@ -6,8 +6,7 @@
     },
 
     "notifications": [
-        { "title": "test notification", "link":"#", "desc":"lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum" },
-        { "title": "test notification", "link":"#", "desc":"lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum" }
+        { "title": "Registrations for Executive Board now open", "link":"http://bit.ly/2uKXmCx" }
     ],
 
     "navbar":{
