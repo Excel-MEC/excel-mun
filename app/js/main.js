@@ -126,6 +126,31 @@ function carouselFill() {
 	}
 }
 
+function handleNotifBadge(){
+	$('.notif-btn').on('click',()=>{
+		if(window.showNotifBadge){
+			$('.notif-btn .badge').css({
+				visibility: "hidden"
+			});
+
+			window.showNotifBadge = false;
+		}
+	});
+}
+
+
+function showModal(secs){
+	setTimeout(
+		() => {
+			$('#notifModal').modal({show: true});
+			console.log("modal");
+			
+		},
+		secs*1000
+	);
+}
+
+
 $(document).ready(() => {
 	window.sr = ScrollReveal();
 	carouselFill();
@@ -133,4 +158,7 @@ $(document).ready(() => {
 	handleScroll();
 	setupScrollreveal();
 	smoothScroll();
+	window.showNotifBadge = true;
+	handleNotifBadge();
+	showModal(1);
 });

@@ -5,6 +5,11 @@
         "title": "MECMUN"
     },
 
+    "notifications": [
+        { "title": "test notification", "link":"#", "desc":"lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum" },
+        { "title": "test notification", "link":"#", "desc":"lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum" }
+    ],
+
     "navbar":{
         "type": "inverse",
         "links":[
