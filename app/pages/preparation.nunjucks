@@ -1,0 +1,18 @@
+{% extends 'layout.nunjucks' %}
+
+{% block sitetitle %}
+    {{siteinfo.title}}
+{% endblock %}
+
+
+{% block styles %}
+    <link rel="stylesheet" href="css/prep-page.css"/>
+{% endblock %}
+
+{% block content %}
+    {% include 'partials/notifications-modal.nunjucks' %}
+    {% include 'partials/navbar.nunjucks' %}
+    {% include 'partials/preparation.nunjucks' %}
+    </div>
+    {% include 'partials/footer.nunjucks' %}
+{% endblock %}

@@ -6,7 +6,7 @@
     },
 
     "notifications": [
-        { "title": "Registrations for Executive Board now open - Click here", "link":"http://bit.ly/2uKXmCx" }
+        { "title": "Registrations for Executive Board now closed", "link":"#" }
     ],
 
     "navbar":{
@@ -15,10 +15,11 @@
 
         ],
         "linksRight":[
-            {"title": "Committees", "url":"#marketing"},
-            {"title": "About Us", "url":"#about-us"},            
-            {"title": "Preparation", "url":"#preparation"},
-            {"title": "Contact Us", "url":"#contact"}            
+            {"title": "Committees", "url":"/#marketing"},
+            {"title": "Letter", "url":"/letter.html#letter"},            
+            {"title": "About Us", "url":"/#about-us"},            
+            {"title": "Preparation", "url":"/preparation.html#preparation"},
+            {"title": "Contact Us", "url":"/#contact"}     
             
         ]
     },

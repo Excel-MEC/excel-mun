@@ -1,0 +1,19 @@
+{% extends 'layout.nunjucks' %}
+
+{% block sitetitle %}
+    {{siteinfo.title}}
+{% endblock %}
+
+
+{% block styles %}
+    <link rel="stylesheet" href="css/letter-page.css"/>
+{% endblock %}
+
+
+{% block content %}
+    {% include 'partials/notifications-modal.nunjucks' %}
+    {% include 'partials/navbar.nunjucks' %}
+    {% include 'partials/letter.nunjucks' %}    
+    </div>
+    {% include 'partials/footer.nunjucks' %}
+{% endblock %}
